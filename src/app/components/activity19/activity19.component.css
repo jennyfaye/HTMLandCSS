@@ -1,0 +1,38 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  outline: none;
+  border:none;
+  text-decoration: none;
+  font-family: "Georgia", serif;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+.web{
+  min-height: 100vh;
+  background-image: url(https://pbs.twimg.com/media/GYM_nZxakAAzMmo?format=jpg&name=large);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.web .content{
+  text-align: center;
+  width: 60rem;
+}
+.web .content h3{
+  font-size: 5.5rem;
+  color: #f7cac9;
+}
+.web .content p{
+  font-size: 1.8rem;
+  color: #91a8d0;
+  padding:1rem 0;
+  line-height: 1.5;
+}
